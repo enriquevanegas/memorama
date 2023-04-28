@@ -1,12 +1,282 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/info.css">
+    <link rel="stylesheet" href="./css/steps.css">
+    <link rel="stylesheet" href="./css/ranking.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Memorama Futbolero</title>
 </head>
+
 <body>
-    
+    <main class="container-fluid">
+        <div class="row banner">
+            <div class="col-12 col-lg-7 d-flex justify-content-center align-items-center mt-5 mt-lg-0 title">
+                <div class="text-center lh-1 text">
+                    <span class="red-color">en monterrey</span>
+                    <div class="d-flex flex-column flex-lg-row">
+                        <span class="green-color">¡nos pintamos</span>
+                        <span class="green-color">de verde!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center airplain justify-content-xl-end">
+                <img src="./src/img/airplain.png" class="img-fluid" alt="Airplain">
+            </div>
+        </div>
+
+        <div class="row d-xl-flex info pb-lg-0">
+
+            <div class="col-12 col-xl-8 mx-xl-auto info-text">
+                <p class="px-xl-5">
+                    <span>Pon a prueba tu memoria, juega del</span>
+                    <span class="orange-color">25 de agosto al 2 de septiembre 2022</span>
+                    <span>y consigue el mejor tiempo.</span>
+                </p>
+
+                <p>
+                    <span class="bold-text">Los primeras 1,010 posiciones</span>
+                    <span class="orange-color">en el ranking podrán ganar:</span>
+                </p>
+            </div>
+
+            <div class="col-12 prizes my-4">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-8 col-lg-3 d-flex flex-column justify-content-center align-items-center prize-card">
+                        <img class="img-fluid" src="./src/img/SVG/ball-ico.svg" alt="Ball">
+                        <p class="book-text text-lg-center">5 viajes dobles a un partido de la NFL</p>
+                    </div>
+                    <div class="col-8 col-lg-3 d-flex flex-column justify-content-center align-items-center prize-card">
+                        <img class="img-fluid" src="./src/img/SVG/shit-ball-ico.svg" alt="Shirt & Ball">
+                        <p class="book-text text-lg-center">1000 regalos de la Selección Nacional</p>
+                    </div>
+                    <div class="col-8 col-lg-3 d-flex flex-column justify-content-center align-items-center prize-card">
+                        <img class="img-fluid" src="./src/img/SVG/tickets-ico.svg" alt="Ball">
+                        <p class="book-text text-lg-center">5 viajes dobles a Qatar</p>
+                    </div>
+                    <div class="col-11 off d-flex flex-column justify-content-center align-items-center prize-card mb-lg-0">
+                        <p class="light-text bottom-text">Para más información de la
+                            promoción ingresa <a href="" class="link bold-text">aquí</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row steps py-5">
+            <div class="col-12 d-flex flex-column">
+                <p class="d-flex flex-column align-items-center mb-0 game-title">
+                    <span class="light-color medium-text">memorama</span>
+                    <span class="green-color bold-text">futbolero</span>
+                </p>
+                <div class="mx-auto separator"></div>
+            </div>
+
+            <div class="col-12 mt-4">
+                <div class="row d-flex justify-content-center justify-content-lg-evenly box-container">
+                    <div class="col-7 col-lg-3 box">
+                        <img src="./src/img/SVG/hand.svg" class="img-fluid hand" alt="">
+                        <p class="light-color book-text">Da click <span class="medium-text">sobre las tarjetas</span>
+                        </p>
+                    </div>
+                    <div class="col-7 col-lg-3 box">
+                        <img src="./src/img/SVG/cards.svg" class="img-fluid cards" alt="">
+                        <p class="light-color book-text">Comienza a <span class="medium-text">formar parejas</span></p>
+                    </div>
+                    <div class="col-7 col-lg-3 box">
+                        <img src="./src/img/SVG/time.svg" class="img-fluid time" alt="">
+                        <p class="light-color book-text">Completa todos los pares en el <span class="medium-text">menor
+                                tiempo posible</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ranking">
+            <div class="table-container">
+                <div class="table-img">
+                    <img src="./src/img/marrit.png" class="img-fluid" alt="Trophy">
+                </div>
+
+                <div class="col-12 d-flex flex-column ranking-title">
+                    <p class="d-flex flex-column align-items-center mb-0 game-title">
+                        <span class="light-color medium-text">memorama</span>
+                        <span class="green-color bold-text">futbolero</span>
+                    </p>
+                    <div class="mx-auto separator"></div>
+                    <p class="text-center bold-text light-color">ranking</p>
+                </div>
+
+                <div class="ranking-table">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <td>
+                                    posición
+                                </td>
+                                <td>
+                                    nombre
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-light-ico.svg" alt="">
+                                    </span>
+                                    movimientos
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-light-ico.svg" alt="">
+                                    </span>
+                                    tiempo
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/prize-ico.svg" alt="">
+                                    </span>
+                                    1.
+                                </td>
+                                <td>Fatima Ramírez</td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-orange-ico.svg" alt="">
+                                    </span>
+                                    52
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-orange-ico.svg" alt="">
+                                    </span>
+                                    5s
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/prize-ico.svg" alt="">
+                                    </span>
+                                    2.
+                                </td>
+                                <td>Fernanda Ramírez</td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-orange-ico.svg" alt="">
+                                    </span>
+                                    60
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-orange-ico.svg" alt="">
+                                    </span>
+                                    6s
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/prize-ico.svg" alt="">
+                                    </span>
+                                    3.
+                                </td>
+                                <td>Anahi Soto</td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-orange-ico.svg" alt="">
+                                    </span>
+                                    61
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-orange-ico.svg" alt="">
+                                    </span>
+                                    6s
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="ico"></span>
+                                    4.
+                                </td>
+                                <td>Jared Vicente</td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-light-ico.svg" alt="">
+                                    </span>
+                                    76
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-light-ico.svg" alt="">
+                                    </span>
+                                    6s
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="ico"></span>
+                                    5.
+                                </td>
+                                <td>Andrea Galas</td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-light-ico.svg" alt="">
+                                    </span>
+                                    85
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-light-ico.svg" alt="">
+                                    </span>
+                                    5s
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="ico"></span>
+                                    23.
+                                </td>
+                                <td>Hugo Ramírez</td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/fb-gray-ico.svg" alt="">
+                                    </span>
+                                    85
+                                </td>
+                                <td>
+                                    <span class="ico">
+                                        <img src="./src/img/SVG/timer-gray-ico.svg" alt="">
+                                    </span>
+                                    5s
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="ranking-footer d-flex flex-column mt-5">
+                    <p class="mx-auto light-color medium-text">Aún tienes 3 oportunidades de jugar</p>
+                    <button class="btn btn-play mx-auto light-color medium-text">Jugar</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <!-- Boottrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

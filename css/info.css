@@ -1,0 +1,40 @@
+
+
+.info {
+    padding: 3rem 2rem;
+}
+
+.info .info-text p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+.info .info-text p:first-child span:nth-child(2)::before,
+.info .info-text p:first-child span:nth-child(2)::after {
+    content: "\a";
+    white-space: pre;
+}
+.info .info-text p:last-child span:nth-child(2)::before,
+.info .info-text p:last-child span:nth-child(2)::after {
+    content: "\a";
+}
+
+.info .prizes .prize-card p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.info .prizes .prize-card {
+    margin-bottom: 2rem;
+}
+
+.info .prizes .prize-card img {
+    padding-bottom: 0.5rem;
+}
+
+.info .prizes > div > .prize-card:nth-child(1) > img {
+    width: 25%;
+}
+.info .prizes > div > .prize-card:nth-child(2) > img, 
+.info .prizes > div > .prize-card:nth-child(3) > img{
+    width: 35%;
+}

@@ -1,0 +1,84 @@
+.steps {
+    background-image: url('../src/img/grad-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.game-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.game-title span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.game-title span:nth-child(2) {
+    font-size: 2.2rem;
+}
+
+.separator {
+    width: 50%;
+    height: 25px;
+    background-image: url('../src/img/separator.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.steps .box-container {
+    position: relative;
+}
+
+.steps .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    position: relative;
+    background-image: url(../src/img/SVG/border.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 1.5rem;
+}
+
+.steps .box:nth-child(2)::after,
+.steps .box:nth-child(2)::before {
+    content: '';
+    width: 5px;
+    height: 40px;
+    color: #119F52;
+    background-color: #119F52;
+    position: absolute;
+}
+
+.steps .box::before {
+    top: -20px;
+}
+
+.steps .box::after {
+    bottom: -20px;
+}
+
+.steps .box img {
+    position: absolute;
+}
+
+.steps .box img.hand {
+    width: 55px;
+    left: -27px;
+}
+
+.steps .box img.cards,
+.steps .box img.time {
+    width: 70px;
+    left: -32px;
+}
+
+.steps .box p {
+    margin-bottom: 0;
+    padding-left: 2rem;
+}

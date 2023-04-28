@@ -1,0 +1,214 @@
+/* tablet */
+@media screen and (min-width: 575px) {
+
+    /* BANNER */
+    .banner {
+        background-position: bottom;
+    }
+
+    .banner .title .text {
+        font-size: 2.5rem;
+    }
+
+    .banner .title .text div span:nth-child(2) {
+        font-size: 3.8rem;
+    }
+
+    .banner .title .text div span:nth-child(1)::after,
+    .banner .title .text div span:nth-child(2)::before {
+        content: "";
+    }
+
+    .banner .airplain img {
+        width: 60%;
+    }
+
+    /* INFO */
+    .info .info-text p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .info .info-text p:first-child span:nth-child(2)::before,
+    .info .info-text p:first-child span:nth-child(2)::after {
+        content: "";
+        white-space: normal;
+    }
+
+    .info .info-text p:last-child span:nth-child(2)::before,
+    .info .info-text p:last-child span:nth-child(2)::after {
+        content: "";
+    }
+
+
+    /* STEPS */
+
+    .steps .box {
+        padding: 0px 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .steps .box::before {
+        top: -36px;
+    }
+
+    .steps .box::after {
+        bottom: -36px;
+    }
+
+    .steps .box img.hand {
+        width: 55px;
+        left: 43px;
+    }
+
+    .steps .box img.cards,
+    .steps .box img.time {
+        width: 70px;
+        left: 39px;
+    }
+
+    .steps .box p {
+        width: 60%;
+    }
+}
+
+
+
+/* desktop estandar */
+@media screen and (min-width: 991px) {
+
+    /* BANNER */
+    .banner {
+        height: 300px;
+        background-image: url(../src/img/bg-desktop.png);
+        background-position: 70%;
+    }
+
+    .banner .title .text {
+        font-size: 1.8rem;
+    }
+
+    .banner .title .text div span {
+        font-size: 2rem;
+    }
+
+    .banner .title .text div span:nth-child(2) {
+        padding-left: 12px;
+        font-size: 2rem;
+    }
+
+    .banner .airplain img {
+        width: 100%;
+    }
+
+
+    /* INFO */
+    .info .info-text p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+    /* Steps */
+    .steps .box:nth-child(2)::before,
+    .steps .box:nth-child(2)::after {
+        content: none;
+    }
+
+    .steps .box:nth-child(1)::before,
+    .steps .box:nth-child(2)::after {
+        content: '';
+        width: 25px;
+        height: 5px;
+        color: #119F52;
+        background-color: #119F52;
+        position: absolute;
+    }
+
+    .steps .box:nth-child(1)::before,
+    .steps .box:nth-child(2)::after {
+        top: unset;
+        bottom: unset;
+        right: -25px;
+    }
+
+    .steps .box img.hand {
+        width: 55px;
+        left: -24px;
+    }
+
+    .steps .box img.cards,
+    .steps .box img.time {
+        width: 70px;
+        left: -30px;
+    }
+
+    .steps .box p {
+        width:fit-content;
+    }
+}
+
+
+
+/* desktop high resolution */
+@media screen and (min-width: 1199px) {
+
+    /* BANNER */
+    .banner {
+        height: 400px;
+        background-image: url(../src/img/bg-desktop.png);
+        background-position: 70%;
+    }
+
+    .banner .title .text {
+        font-size: 2.7rem;
+    }
+
+    .banner .title .text div span {
+        font-size: 3rem;
+    }
+
+    .banner .title .text div span:nth-child(2) {
+        padding-left: 12px;
+        font-size: 3rem;
+    }
+
+    .banner .airplain img {
+        width: 80%;
+    }
+
+
+    /* INFO */
+    .info .info-text p {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .info .info-text p:last-child {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+     /* STEPS */
+     .steps .box:nth-child(1)::before,
+    .steps .box:nth-child(2)::after {
+        width: 75px;
+    }
+
+    .steps .box:nth-child(1)::before,
+    .steps .box:nth-child(2)::after {
+        top: unset;
+        bottom: unset;
+        right: -49px;
+    }
+
+    /* Prizes */
+    .info .prizes>div>.prize-card:nth-child(1)>img {
+        width: 25%;
+    }
+
+    .info .prizes>div>.prize-card:nth-child(2)>img,
+    .info .prizes>div>.prize-card:nth-child(3)>img {
+        width: 35%;
+    }
+}

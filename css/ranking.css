@@ -1,0 +1,125 @@
+.ranking {
+    background-image: url('../src/img/bg-ranking-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.table-container {
+    width: 90%;
+    height: auto;
+    padding: 4rem 2rem;
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.table-container .table-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.table-container .table-img img {
+    width: 130px;
+    position: absolute;
+    top: 12px;
+}
+
+.ranking .ranking-title .separator {
+    width: 40%;
+}
+
+.ranking .ranking-title .game-title span:nth-child(1) {
+    font-size: 1rem;
+}
+
+.ranking .ranking-title .game-title span:nth-child(2) {
+    font-size: 1.3rem;
+}
+
+.ranking .ranking-title p:last-child {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+.ranking .ranking-table table thead tr td,
+.ranking .ranking-table table tbody tr td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.ranking .ranking-table table {
+    border-spacing: 0;
+}
+.ranking .ranking-table table thead {
+    border-bottom: solid 3px #fff;
+}
+
+.ranking .ranking-table table thead tr td {
+    text-transform: capitalize;
+    color: #E0E0E0;
+}
+
+.ranking .ranking-table table span.ico img {
+    width: 15px;
+}
+
+.ranking .ranking-table table tbody {
+    color: #E0E0E0;
+}
+
+.ranking .ranking-table table tbody tr {
+    border-bottom: solid 1px #fff;
+}
+
+.ranking .ranking-table table tbody tr:nth-child(-n+3) {
+    color: #FF671B;
+}
+
+.ranking .ranking-table table tbody tr:last-child {
+    background-color: #E0E0E0;
+    color: #000
+}
+
+/* PRIMER COLUMNA */
+.ranking .ranking-table table tbody tr td:first-child span.ico {
+    display: inline-block;
+    width: 15px;
+    padding-right: 5px;
+}
+
+/* TERCER COLUMNA */
+.ranking .ranking-table table tbody tr td:nth-child(3) span.ico {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+
+
+/* FOOTER */
+.ranking-footer p {
+    font-size: 1.5rem;
+}
+
+.ranking-footer button.btn.btn-play {
+    background-color: #EB0029;
+    font-size: 2rem;
+}

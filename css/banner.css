@@ -1,0 +1,26 @@
+.banner {
+    height: 500px;
+    background-image: url('../src/img/bg-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .title .text {
+    text-transform: uppercase;
+    font-family: 'Gotham-Black', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.banner .title .text div span:nth-child(2) {
+    font-size: 2.3rem;
+}
+
+.banner .title .text div span:nth-child(1)::after,
+.banner .title .text div span:nth-child(2)::before {
+    content: "\a";
+}
+
+.banner .airplain img {
+    width: 90%;
+}

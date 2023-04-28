@@ -1,0 +1,83 @@
+
+/* GENERAL RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* FONT FAMILY SETTINGS */
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../src/fonts/Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../src/fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../src/fonts/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../src/fonts/GothamBook.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../src/fonts/GothamMedium.otf');
+}
+
+
+
+
+/* TEXT COLORS */
+
+.red-color, .link {
+    color: #EB0029;
+}
+
+.green-color {
+    color: #119F52;
+}
+
+.orange-color {
+    color: #FF671B;
+}
+
+.light-color {
+    color: #E0E0E0;
+}
+
+/* FONT FAMILY CLASSES */
+
+.black-text {
+    font-family: 'Gotham-Blak', Arial, sans-serif;
+}
+
+.bold-text {
+    font-family: 'Gotham-Bold', Arial, sans-serif;
+}
+
+.light-text {
+    font-family: 'Gotham-Light', Arial, sans-serif;
+}
+
+.book-text {
+    font-family: 'Gotham-Book', Arial, sans-serif;
+}
+
+.medium-text {
+    font-family: 'Gotham-Medium', Arial, sans-serif;
+}
