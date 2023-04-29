@@ -1,6 +1,5 @@
-# memorama
 
-Examen Ideeo - Memorama
+# Examen Ideeo - Memorama Fútbolero
 
 Esta es una prueba técnica sobre maquetado de un sitio a partir de un prototipo en Adobe Illustrator.
 
